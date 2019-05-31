@@ -10,6 +10,7 @@ class Solution {
             L[i + 1] = A[i];
         }
         int count = 0;
+        System.out.println("");
         int pos = (n + 1) / 2;
         int candidate = L[pos];
         for (int i = 1; i < n; i++) {
